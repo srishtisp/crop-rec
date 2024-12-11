@@ -99,13 +99,6 @@ st.markdown(f"""
 </style>
 """, unsafe_allow_html=True)
 
-
-header_col1, header_col2 = st.columns([3, 6])
-with header_col1:
-    st.image('https://www.omdena.com/images/omdena.png', width=250)
-with header_col2:
-    st.title('Optimizing Crop Rotation for Small-scale Farmers in Rwanda')
-
 # layout for inputs and controls
 col1, col2, col3 = st.columns([2.7, 0.5, 6])
 with col1:
