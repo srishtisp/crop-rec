@@ -101,8 +101,6 @@ st.markdown(f"""
 
 
 header_col1, header_col2 = st.columns([3, 6])
-with header_col2:
-    st.title('Crop Rotation')
 
 # layout for inputs and controls
 col1, col2, col3 = st.columns([2.7, 0.5, 6])
